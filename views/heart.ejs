@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow-x: hidden">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StayFit</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <style>
+      html{
+        scroll-behavior: smooth;
+      }
+      .radio-inline{
+          margin: 4px;
+      }
+    </style>
+</head>
+
+<body style="background-image: url('https://images.cdn3.stockunlimited.net/preview1300/heart-anatomy-in-a-human-body_1866769.jpg'); background-repeat: no-repeat; background-size: cover">
+  <strong>
+  <nav class="navbar justify-content-between" style="background-color: none">
+
+    <a href="/" class="navbar-brand" style="color: white; background-color: #ed3737; padding:8px 24px; border-radius: 50px; font-size: 1.5rem">StayFit</a>
+    <div class="form-inline">
+    
+      <a href="/"><button class="btn btn-lg my-2 my-sm-0" type="submit" style="font-size:1.5rem;background-color: #ed3737;color: white;margin-right: 20px;padding-right:30px;padding-left:30px;border-radius: 50px;">
+          Go Back to Home
+        </button></a>
+
+    </div>
+  </nav>
+  
+  <br>
+  <div class="container" >
+    <h1  style="color:white;font-weight: bolder;" id="generald">Heart attack detection</h1>
+    <br>
+    <h4 style="color:#ed3737"><strong>Fill The Form</strong></h4>
+    <br>
+    <table style="margin: auto;">
+      
+      <tr>
+        <td>
+          <div>
+  
+
+
+        <!-- dont touch this -->
+        <div class="container text-center">
+          <h5 id="msg" style="color: red; align-content: center;"></h5>
+        </div>
+
+        
+      
+         <form action="/heart" method="post">
+
+
+          <div class="form-group col-md-12" style="color: white;">
+            <label for="disease">What is your age?</label><br>
+            <input type="number"  class="form-control" name="age" id="age" style="width:200px">
+
+          </div>
+       
+        <div class="form-group col-md-12" style="color: white;">
+          <label for="disease">What is you sex</label> <br>
+          <label class="radio-inline"><input type="radio" value="1" name="optradio1" >Male</label>
+          <label class="radio-inline"><input type="radio" value="0" name="optradio1">Female</label>
+          <label class="radio-inline"><input type="radio" value="0"name="optradio1">Other</label>
+         
+        </div>
+   
+        <div class="form-group col-md-12" style="color: white;">
+          <label for="disease">Chest pain type</label> <br>
+          <label class="radio-inline"><input type="radio" value="0" name="optradio2" > typical angina</label>
+          <label class="radio-inline"><input type="radio" value="1" name="optradio2"> atypical angina</label>
+          <label class="radio-inline"><input type="radio" value="2"name="optradio2">non-anginal pain</label>
+          <label class="radio-inline"><input type="radio" value="3"name="optradio2">asymptomatic </label>
+         
+        </div>
+   
+        <div class="form-group col-md-12" style="color: white;">
+          <label for="disease">Resting blood pressure (in mm Hg on admission to the hospital)</label><br>
+          <input type="number"  class="form-control" name="tbps" id="tbps" style="width:200px">
+
+        </div>
+     
+        <div class="form-group col-md-12" style="color: white;">
+          <label for="disease">Serum cholesterol in mg/dl</label><br>
+          <input type="number"  class="form-control" name="chol" id="chol" style="width:200px">
+
+        </div>
+        <div class="form-group col-md-12" style="color: white;">
+          <label for="disease">   fasting blood sugar > 120 mg/dl</label> <br>
+          <label class="radio-inline"><input type="radio" value="1" name="optradio3" >True</label>
+          <label class="radio-inline"><input type="radio" value="0" name="optradio3">False</label>
+         
+        </div>
+     
+        <div class="form-group col-md-12" style="color: white;">
+          <label for="disease"> Resting electrocardiographic results </label> <br>
+          <label class="radio-inline"><input type="radio" value="0" name="optradio4" >Normal</label>
+          <label class="radio-inline"><input type="radio" value="1" name="optradio4">Having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)</label>
+          <label class="radio-inline"><input type="radio" value="2" name="optradio4" >showing probable or definite left ventricular hypertrophy by Estes' criteria</label>
+        </div>
+        <div class="form-group col-md-12" style="color: white;">
+          <label for="disease">Maximum heart rate achieved</label><br>
+          <input type="number"  class="form-control" name="thalach" id="thalach" style="width:200px">
+
+        </div>
+        <div class="form-group col-md-12" style="color: white;">
+          <label for="disease"> Exercise induced angina</label> <br>
+          <label class="radio-inline"><input type="radio" value="1" name="optradio5" >Yes</label>
+        
+          <label class="radio-inline"><input type="radio" value="0" name="optradio5" >No</label>
+        </div>
+        <div class="form-group col-md-12" style="color: white;">
+          <label for="disease">   oldpeak = ST depression induced by exercise relative to rest</label><br>
+          <input type="number"  step="0.01" class="form-control" name="oldpeak" id="oldpeak" style="width:200px">
+
+        </div>
+        <div class="form-group col-md-12" style="color: white;">
+          <label for="disease"> The slope of the peak exercise ST segment</label><br>
+          <label class="radio-inline"><input type="radio" value="0" name="optradio6" >unsloping</label>
+          <label class="radio-inline"><input type="radio" value="1" name="optradio6" >flat</label>
+          <label class="radio-inline"><input type="radio" value="2" name="optradio6" >downsloping</label>
+
+        </div>
+        <div class="form-group col-md-12" style="color: white;">
+          <label for="disease">Number of major vessels (0-3) colored by flourosopy</label><br>
+          <label class="radio-inline"><input type="radio" value="0" name="optradio7" >0</label>
+          <label class="radio-inline"><input type="radio" value="1" name="optradio7" >1</label>
+          <label class="radio-inline"><input type="radio" value="2" name="optradio7" >2</label>
+          <label class="radio-inline"><input type="radio" value="3" name="optradio7" >3</label>
+
+        </div>
+        <div class="form-group col-md-12" style="color: white;">
+          <label for="disease">Thal</label><br>
+          <label class="radio-inline"><input type="radio" value="0" name="optradio8" >normal</label>
+          <label class="radio-inline"><input type="radio" value="1" name="optradio8" >fixed defect</label>
+          <label class="radio-inline"><input type="radio" value="2" name="optradio8" >reversable defect</label>
+      
+
+        </div>
+
+     
+    
+        <button type="submit" id="loginbtn" class="btn btn-primary indigo darken-4" style="width: 100px;margin-left: 15px;" >Submit</button>
+        
+      </form>
+  
+    </div>
+  </td>
+</tr>
+</table>
+</div>
+<br>
+<div class="container" style="color:#ed3737; text-align: center;">
+<h3 style="font-weight:bolder;" id="disease"><%=data%></h3>
+<br><br>
+</div>
+<!-- dont touch this -->
+
+
+  </strong>
+
+</body>
+
+</html>
