@@ -39,3 +39,14 @@ Integrating the Machine Learning models in the web application was another huge 
 ![](https://github.com/Srish-tii/StayFit/blob/main/img2.PNG)
 ![](https://github.com/Srish-tii/StayFit/blob/main/img3.PNG)
 ![](https://github.com/Srish-tii/StayFit/blob/main/img4.PNG)
+
+## Instructions to Install and Setup:
+1. Download the Zip or clone the repository using command : - git clone  https://github.com/Srish-tii/StayFit.git 
+2. Now extract and open the folder.
+3. Now open the folder with terminal.
+4. To run ML/DL models, create a python virtual env in anaconda prompt and install: scikit-learn, Tensorflow, Pandas, Numpy, NLTK, Jupyter Notebook via pip install or conda   
+install. Launch the notebook and run and train the models!
+6. Run commands: npm install nodemon app.js
+7. The server started locally at the port shown on terminal.
+8. Launch any browser window and search https://localhost:2500.
+
