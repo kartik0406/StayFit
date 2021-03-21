@@ -1,7 +1,5 @@
 # StayFit - Detect now, Prevent later
 For watching Live Demo visit:https://youtu.be/0gUtkNWYCQU 
-THIS PROJECT HAS BEEN MADE ENTIRELY DURING THE 24HRS OF THE HACKATHON-RECURSION 2.0, 2021.
-The theme completely includes all the critera outline by the organisers.
 
 ## Chosen Track: AI/ML : Health care: Check Heart attack possibility
 Good health is one of the key influencers to leading a perfect life. Maintaining good health is critical for everyone, especially which anyone has a chance of getting coronary heart disease or heart attack
