@@ -21,7 +21,7 @@ Hence, we are trying to develop an AI driven web application that can predict th
 1. Low accuracy, increasing it was a challenge but we were able to do it.
 2. Integrating the Machine Learning models in the web application was another huge task for us but at the end we could do it.
 
-## Technology Used
+## Technology Stack Used
 1. HTML
 2. CSS
 3. JavaScript
