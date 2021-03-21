@@ -13,13 +13,13 @@ this date.The "target" field refers to the presence of heart disease in the pati
 
 ## The problem StayFit solves
 To develop an ML model using the Cleveland Database to predict the risk of heart diseases/ heart attack. People can use our website to understand if they are at a high or low risk of facing heart attack and take steps accordingly to prevent it and maintain healthy lifestyle.
-
+We have integrated the ML model with node.js in our web application.
 Good health is one of the key influencers to leading a perfect life. Maintaining good health is critical for everyone, especially which anyone has a chance of getting coronary heart disease or heart attack
-Hence, we are trying to develop an AI driven application that can predict the risk of heart diseases/ heart attack.
+Hence, we are trying to develop an AI driven web application that can predict the risk of heart diseases/ heart attack.
 
 ## Challenges we ran into
-Low accuracy, increasing it was a challenge but we were able to do it.
-Integrating the Machine Learning models in the web application was another huge task for us but at the end we could do it.
+1. Low accuracy, increasing it was a challenge but we were able to do it.
+2. Integrating the Machine Learning models in the web application was another huge task for us but at the end we could do it.
 
 ## Technology Used
 1. HTML
@@ -45,7 +45,7 @@ Integrating the Machine Learning models in the web application was another huge 
 2. Now extract and open the folder.
 3. Now open the folder with terminal.
 4. To run ML/DL models, create a python virtual env in anaconda prompt and install: scikit-learn, Tensorflow, Pandas, Numpy, NLTK, Jupyter Notebook via pip install or conda install. Launch the notebook and run and train the models.
-6. Run commands: npm install nodemon app.js
+6. Run commands: 1. npm install 2. nodemon app.js
 7. The server started locally at the port shown on terminal.
 8. Launch any browser window and search https://localhost:2500.
 
