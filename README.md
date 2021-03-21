@@ -1,7 +1,7 @@
-# StayFit
+# StayFit - Detect now, Prevent later
 For watching Live Demo visit:https://youtu.be/0gUtkNWYCQU
 
-## Chosen Track: AI/ML
+## Chosen Track: AI/ML : Health care: Check Heart attack possibility
 Good health is one of the key influencers to leading a perfect life. Maintaining good health is critical for everyone, especially which anyone has a chance of getting coronary heart disease or heart attack
 Hence, we are trying to develop an AI driven application that can predict the risk of heart diseases/ heart attack.
 
