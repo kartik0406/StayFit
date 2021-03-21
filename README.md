@@ -33,3 +33,9 @@ Integrating the Machine Learning models in the web application was another huge 
 9. Matplotlib
 10. Tensorflow
 11. Keras
+
+## DEMO IMAGES OF WEBSITE
+![](https://github.com/Srish-tii/StayFit/blob/main/img1.PNG)
+![](https://github.com/Srish-tii/StayFit/blob/main/img2.PNG)
+![](https://github.com/Srish-tii/StayFit/blob/main/img3.PNG)
+![](https://github.com/Srish-tii/StayFit/blob/main/img4.PNG)
